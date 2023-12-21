@@ -1,0 +1,108 @@
+server:
+  port: 8087
+
+spring:
+  profiles:
+    active: test-remote
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        use_sql_comments: true
+        format_sql: true
+        type: trace
+        legacy_limit_handler: true
+        proc:
+          param_null_passing: true
+    show-sql: true
+  mail:
+    host: smtp.tigo.com.gt
+    port: 25
+    properties:
+      mail:
+        smtp:
+          auth: false
+---
+
+spring:
+  config:
+    activate:
+      on-profile: development
+  datasource:
+    application:
+      jndi-name: jdbc/AccruedDS
+    employees:
+      jndi-name: jdbc/vhurAccrued
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.trace: debug
+    gt.com.tigo.accruedautomation: debug
+azure:
+  application:
+    id: 7698b4d8-ba1d-46f1-bd19-5f2fa2137dc7
+    callback-url: http://localhost:3000
+log4j:
+  logger:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: development-alt
+  datasource:
+    application:
+      jndi-name: jdbc/AccruedDS
+    employees:
+      jndi-name: jdbc/vhurAccrued
+logging:
+  level:
+    org.hibernate.SQL: debug
+    gt.com.tigo: debug
+azure:
+  application:
+    id: 6726cadc-5679-4331-a736-51deec194d5d
+    callback-url: http://localhost:3100
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test-remote
+  datasource:
+    application:
+      jndi-name: jdbc/AccruedDS
+    employees:
+      jndi-name: jdbc/vhurAccrued
+logging:
+  level:
+    org.hibernate.SQL: info
+    gt.com.tigo: info
+azure:
+  application:
+    id: 26838411-7e2e-4701-85ba-22b7d562a019
+    callback-url: http://172.22.91.164:7007/accrued-automation
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: production
+  datasource:
+    application:
+      jndi-name: jdbc/AccruedDS
+    employees:
+      jndi-name: jdbc/vhurAccrued
+logging:
+  level:
+    org.hibernate.SQL: info
+    gt.com.tigo: info
+azure:
+  application:
+    id: 26838411-7e2e-4701-85ba-22b7d562a019
+    callback-url: http://172.22.91.167:7001/accrued-automation

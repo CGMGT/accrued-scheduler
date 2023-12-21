@@ -1,7 +1,7 @@
-# Backend Accrued Automation / Scheduled Tasks
+# Backend Tigo Accrued Automation / Scheduled Tasks
 ###### Version 1.0
 
-Tareas programadas para Accrued Automation.
+Tareas programadas para Tigo Accrued Automation.
 
 ## Configuration
 - Spring Boot 2.6.0-SNAPSHOT
@@ -16,7 +16,7 @@ Tareas programadas para Accrued Automation.
 ## Usage
 #### Clone repository
 ```
-git clone https://github.com/CGMGT/accrued-scheduler/src.git 
+git clone https://gitlab-bsd.tigo.com.gt/BSD-APPS/Ventas/AccruedAutomationApp/src.git 
 ```
 #### Project information
 ```

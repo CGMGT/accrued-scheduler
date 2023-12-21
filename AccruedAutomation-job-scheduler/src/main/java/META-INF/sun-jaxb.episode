@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.11.08 a las 12:26:23 PM CST 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.banguat.gob.gt/variables/ws/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="gt.com.tigo.accruedautomation.soapclient.banguat"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:VariablesDisponibles">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.VariablesDisponibles"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:VariablesDisponiblesResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.VariablesDisponiblesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InfoVariable">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.InfoVariable"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Variables">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.Variables"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:VariablesResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.VariablesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioFechaInicial">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioFechaInicial"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioFechaInicialResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioFechaInicialResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DataVariable">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.DataVariable"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioRango">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioRango"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioRangoResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioRangoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioFechaInicialMoneda">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioFechaInicialMoneda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioFechaInicialMonedaResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioFechaInicialMonedaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioRangoMoneda">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioRangoMoneda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioRangoMonedaResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioRangoMonedaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioDia">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioDia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioDiaResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioDiaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioDiaString">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioDiaString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TipoCambioDiaStringResponse">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.TipoCambioDiaStringResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfVariable">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.ArrayOfVariable"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Variable">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.Variable"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfVar">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.ArrayOfVar"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Var">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.Var"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfVarDolar">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.ArrayOfVarDolar"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:VarDolar">
+                  
+            <class ref="gt.com.tigo.accruedautomation.soapclient.banguat.VarDolar"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
